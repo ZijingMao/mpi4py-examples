@@ -24,9 +24,13 @@ If you want to run the program distributed over multiple hosts,
 you have to create a <hostfile> which looks like:
 
 -- hostfile --
+
 host1   slots=4
+
 host2   slots=4
+
 host3   slots=4
+
 --------------
 
 Where "slots=" specifies the number of parallel processes that should be
