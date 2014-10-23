@@ -1,5 +1,5 @@
 
-=== Dependencies ===
+#=== Dependencies ===
 
 These programs depend on mpi4py (>= Version 1.0)
 
@@ -8,7 +8,9 @@ can be found at:
 
    http://mpi4py.scipy.org/
 
-=== How to run on a single (multi-core) host ===
+--------------
+
+#=== How to run on a single (multi-core) host ===
 
 Run it with 
 
@@ -17,8 +19,9 @@ Run it with
 where the number after "-np " is the numer of parallel MPI 
 processes to be started.
 
+--------------
 
-=== How to run on multiple hosts ===
+#=== How to run on multiple hosts ===
 
 If you want to run the program distributed over multiple hosts, 
 you have to create a <hostfile> which looks like:
@@ -31,8 +34,6 @@ host2   slots=4
 
 host3   slots=4
 
---------------
-
 Where "slots=" specifies the number of parallel processes that should be
 started on that host.
 
@@ -40,8 +41,9 @@ Run it with
 
   mpirun --hostfile <hostfile> ./some-program
 
+--------------
 
-=== Run on a cluster with the Torque Job schduling system ===
+#=== Run on a cluster with the Torque Job schduling system ===
 
 There are two possibilities:
 
