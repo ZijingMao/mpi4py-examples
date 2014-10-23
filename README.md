@@ -74,7 +74,7 @@ Use
 
  $ qsub -l nodes=4:ppn=4 ./your-jobfile.job
 
-to submit jour job-file. Similar to the interactive case, "-l" again is used  
+to submit jour job-file. Similar to the interactive case, "-l" again is used 
 to request resources from the scheduling system. The job file usually is a 
 simple shell script which specifies the commands to be run once your job 
 starts. In addition, the jobfile can contain "#PBS <something>" statements
