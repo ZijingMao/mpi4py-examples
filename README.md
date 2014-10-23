@@ -1,5 +1,5 @@
 
-#=== Dependencies ===
+## Dependencies
 
 These programs depend on mpi4py (>= Version 1.0)
 
@@ -10,7 +10,7 @@ can be found at:
 
 --------------
 
-#=== How to run on a single (multi-core) host ===
+##=== How to run on a single (multi-core) host ===
 
 Run it with 
 
@@ -21,7 +21,7 @@ processes to be started.
 
 --------------
 
-#=== How to run on multiple hosts ===
+## How to run on multiple hosts
 
 If you want to run the program distributed over multiple hosts, 
 you have to create a <hostfile> which looks like:
@@ -43,7 +43,7 @@ Run it with
 
 --------------
 
-#=== Run on a cluster with the Torque Job schduling system ===
+## Run on a cluster with the Torque Job schduling system
 
 There are two possibilities:
 
